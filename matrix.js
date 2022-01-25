@@ -13,7 +13,7 @@ function inicio_matrix(){
 	ctx.fillRect(0, 0, width, height)
 	ctx.fillStyle = '#37cc05'
 
-	ctx.font = '11pt arial'
+	ctx.font = '20pt arial'
 
 	position.map(function(y, index){
 		let text = String.fromCharCode(1e2 + Math.random() * 30)
